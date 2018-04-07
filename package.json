@@ -1,0 +1,24 @@
+{
+  "name": "lunsj-slack-bot",
+  "version": "1.0.0",
+  "description": "API-endepunkter for Outgoing Webhooks i Slack. Bygd med NodeJS og express for kjøring på Heroku.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Askild/lunsj-slack-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Askild/lunsj-slack-bot/issues"
+  },
+  "homepage": "https://github.com/Askild/lunsj-slack-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
